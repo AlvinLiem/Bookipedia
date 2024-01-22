@@ -1,0 +1,136 @@
+body, h1, p, ul, li, a {
+    margin: auto;
+    padding: auto;
+    font-family: "system-ui";
+}
+
+body {
+    background-image: url("assets/BGLanding.jpg");
+    background-color: #f2f2f2;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    padding: 20px 0;
+    margin: 50px 24%;
+    border-radius: 30px;
+    font-size: auto;
+    font-weight: bold;
+}
+
+.navbarSection {
+    display: flex;
+    align-items: center;
+    gap: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100%;
+    background: rgba(91, 69, 30, 0.2);
+}
+
+.navbar p {
+    color: #F1F1F1;
+    font-size: 60px;
+    font-weight: 400px;
+}
+
+.logoSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: larger;
+    display: inline;
+    margin: 0 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: orange;
+    transition: 0.3s;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5%;
+    width: 100px;
+    height: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+
+.features {
+    padding: auto;
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.about {
+    background-color: rgba(255, 132, 0, 0.26);
+    padding: 10px;
+    text-align: center;
+    font-size: x-large;
+    margin: 60px 10%;
+    border-radius: 30px;
+}
+
+.about h1 {
+    padding: auto;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 47px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 1;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
